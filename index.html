@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>natureproducts</title>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+    <!-- font family -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+
+
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+        integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+
+    <!-- navbar first -->
+    <nav class="navbar navbar-expand-lg bg-primary-green nav-bar-styling">
+        <div class="container-fluid mx-3">
+
+            <!-- Phone Section (always visible) -->
+            <div class="d-flex align-items-center me-auto">
+                <a href="tel:+9779851169549" class="icon-link me-2">
+                    <i class="fas fa-phone-volume text-white"></i>
+                </a>
+                <span class="text-white phone-number">+9779851169549</span>
+            </div>
+
+            <!-- Navbar Toggler (visible only below md) -->
+            <button class="navbar-toggler d-none d-md-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar Items -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item nav-item-styling">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item nav-item-styling">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Product Catalogues</a>
+                    </li>
+                    <li class="nav-item nav-item-styling">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Contact us</a>
+                    </li>
+                    <li class="nav-item nav-item-styling">
+                        <a class="nav-link active text-white" aria-current="page" href="#">About us</a>
+                    </li>
+                    <li class="nav-item nav-item-styling">
+                        <a class="nav-link active text-white" aria-current="page" href="#">News / Articles</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Social Icons (hidden below md) -->
+            <div class=" d-md-flex gap-2">
+                <a href="https://facebook.com" class="social-icon facebook" target="_blank">
+                    <i class="fab fa-facebook text-white"></i>
+                </a>
+                <a href="https://instagram.com" class="social-icon instagram" target="_blank">
+                    <i class="fab fa-instagram text-white"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <!-- second navvar -->
+
+
+    <nav class="navbar navbar-expand-lg nav-bar-2 bg-primary-bg">
+        <div class="container-fluid d-flex justify-content-between align-items-center">
+            <a class="navbar-brand" href="#">
+                <img src="images/navbar-logo.png" alt="Logo" class="navbar-logo ">
+            </a>
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+                <ul class="navbar-nav  mb-2 mb-lg-0 nav-item-2-text fw-bold mx-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link active" aria-current="page" href="#">
+                            <div class="d-flex flex-column align-items-center">
+                                <img src="images/navbar-img-1.png" alt="" class="nav-category-img"><span>Beans</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">
+                            <div class="d-flex flex-column align-items-center">
+                                <img src="images/navbar-img-2.png" alt="" class="nav-category-img"><span>Suppliment</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">
+                            <div class="d-flex flex-column align-items-center">
+                                <img src="images/navbar-img-3.png" alt="" class="nav-category-img"><span>Lentils</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">
+                            <div class="d-flex flex-column align-items-center">
+                                <img src="images/navbar-img-4.png" alt="" class="nav-category-img"><span>Herbs & Spices</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">
+                            <div class="d-flex flex-column align-items-center">
+                                <img src="images/navbar-img-5.png" alt="" class="nav-category-img"><span>Honey</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">
+                            <div class="d-flex flex-column align-items-center">
+                                <img src="images/navbar-img-6.png" alt="" class="nav-category-img"><span>Tea & Coffee</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">
+                            <div class="d-flex flex-column align-items-center">
+                                <img src="images/navbar-img-7.png" alt="" class="nav-category-img"><span>Others</span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+
+                <button type="button"
+                    class="btn text-white bg-primary-green nav-bar-button d-flex align-items-center gap-4 rounded-1">
+                    <div class="icon-download-catalogue me-2">
+                        <i class="fas fa-download mb-1"></i>
+                    </div>
+                    <div class="button-text d-flex flex-column">
+                        <span class="fw-bold text-uppercase">Download</span>
+                        <span class="fw-bold text-uppercase">Catalogue</span>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+    <!-- Hero Section -->
+    <section class="hero-section py-5 bg-light-green position-relative overflow-hidden">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <!-- Image Section -->
+                <div class="col-md-6 order-2 order-md-0 text-center mb-4 mb-md-0">
+                    <img src="images/Untitled-1.gif" class="img-fluid w-75 w-md-100 mt-4" alt="Nature Image">
+                </div>
+
+                <!-- Text Content Section -->
+                <div class="col-md-6 text-center text-md-start">
+                    <!-- Sticker -->
+                    <div class="sticker-image mb-4">
+                        <img src="images/logo-leaf-new.png" alt="Leaf" class="img-fluid" style="max-width: 120px;">
+                    </div>
+
+                    <!-- Headings -->
+                    <h2 class="hero-section-heading1 fw-bold mb-2 mt-3 display-6 display-md-5 display-lg-4">
+                        From The Heart of Nepal,
+                    </h2>
+                    <h2 class="hero-section-heading2 fw-bold mb-3 display-6 display-md-5 display-lg-4">
+                        Nature’s Finest Offerings
+                    </h2>
+
+                    <!-- Paragraph -->
+                    <p class="hero-section-paragraph mb-4 fs-6 fs-md-6 fs-lg-5">
+                        Nature Product is a new brand launched in 2024 to showcase Nepali products grown in high
+                        altitudes,
+                        known for their health benefits. It emphasizes unique herbs, medicinal plants, and nutrient-rich
+                        foods from
+                        Nepal, aiming to connect farmers, manufacturers, and consumers. The brand ensures premium
+                        quality,
+                        authentic taste, and top-notch packaging to bring these products to international markets.
+                    </p>
+
+                    <!-- Button -->
+                    <button class="hero-section-button btn bg-primary-green text-white rounded-1 px-4 py-2 mt-2">
+                        VIEW PRODUCT
+                    </button>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Decorative Sticker -->
+        <div class="sticker-image-2 position-absolute" style="bottom: 0; right: 0; max-width: 120px;">
+            <img src="images/logo-leaf2-free-img.png" alt="Leaf Sticker" class="img-fluid">
+        </div>
+    </section>
+
+
+    <!-- best rated products -->
+
+    <section class="best-rated-products py-5">
+        <div class="container text-center">
+
+            <!-- Section Heading -->
+            <h2 class="fw-bold mb-4 mt-5">Best Rated Products</h2>
+
+            <!-- Leaf Sticker -->
+            <div class="sticker-leaf mb-5">
+                <img src="images/logo-leaf-new.png" alt="Leaf Sticker" class="leaf-sticker-img"
+                    style="max-width: 100px;">
+            </div>
+
+            <!-- Product Grid -->
+            <div class="row justify-content-center g-4 d-flex flex-wrap">
+
+                <!-- product - 1 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2 col-5ths">
+                    <a href="#" class="text-decoration-none text-dark d-block h-100">
+                        <div class="product-item text-center">
+                            <img src="images/blue-tea-1-300x300.png" alt="Butterfly Pea"
+                                class="img-fluid product-img mb-2">
+                            <div class="text-muted small">Tea & Coffee</div>
+                            <div class="fw-bold fs-6">Butterfly Pea Tea</div>
+                        </div>
+                    </a>
+                </div>
+
+
+                <!-- product - 2 -->
+
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2 col-5ths">
+                    <a href="#" class="text-decoration-none text-dark d-block h-100">
+                        <div class="product-item">
+                            <img src="images/chamomile-1-300x300.png" alt="Butterfly Pea"
+                                class="img-fluid product-img mb-2">
+                            <div class="text-muted small">Tea & Coffee</div>
+                            <div class="fw-bold fs-6">Chamomile Tea</div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- product - 3 -->
+
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2 col-5ths">
+                    <a href="#" class="text-decoration-none text-dark d-block h-100">
+
+
+                        <div class="product-item">
+                            <img src="images/golden-tea-300x300.png" alt="Butterfly Pea"
+                                class="img-fluid product-img mb-2">
+                            <div class="text-muted small">Tea & Coffee</div>
+                            <div class="fw-bold fs-6">Golden Tea</div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- product - 4 -->
+
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2 col-5ths">
+                    <a href="#" class="text-decoration-none text-dark d-block h-100">
+
+                        <div class="product-item">
+                            <img src="images/Premium-green-Tea-1-300x300.png" alt="Butterfly Pea"
+                                class="img-fluid product-img mb-2">
+                            <div class="text-muted small">Tea & Coffee</div>
+                            <div class="fw-bold fs-6">Green Tea</div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- product - 5 -->
+
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2 col-5ths">
+                    <a href="#" class="text-decoration-none text-dark d-block h-100">
+
+                        <div class="product-item">
+                            <img src="images/Guava-leaf-tea-300x300.png" alt="Butterfly Pea"
+                                class="img-fluid product-img mb-2">
+                            <div class="text-muted small">Tea & Coffee</div>
+                            <div class="fw-bold fs-6">Gauva Leaf Tea</div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- product - 6 -->
+
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2 col-5ths">
+                    <a href="#" class="text-decoration-none text-dark d-block h-100">
+
+                        <div class="product-item">
+                            <img src="images/Lemon-ginger-300x300.png" alt="Butterfly Pea"
+                                class="img-fluid product-img mb-2">
+                            <div class="text-muted small">Tea & Coffee</div>
+                            <div class="fw-bold fs-6">Lemon Ginger Tea</div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- product - 7 -->
+
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2 col-5ths">
+                    <a href="#" class="text-decoration-none text-dark d-block h-100">
+
+                        <div class="product-item">
+                            <img src="images/Lemongrass-gingger-300x300.png" alt="Butterfly Pea"
+                                class="img-fluid product-img mb-2">
+                            <div class="text-muted small">Tea & Coffee</div>
+                            <div class="fw-bold fs-6">Lemongrass Ginger Tea</div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- product - 8 -->
+
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2 col-5ths">
+                    <a href="#" class="text-decoration-none text-dark d-block h-100">
+
+                        <div class="product-item">
+                            <img src="images/Roselle-300x300.png" alt="Butterfly Pea"
+                                class="img-fluid product-img mb-2">
+                            <div class="text-muted small">Tea & Coffee</div>
+                            <div class="fw-bold fs-6">Roselle Tea</div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- product 9 -->
+
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2 col-5ths">
+                    <a href="#" class="text-decoration-none text-dark d-block h-100">
+
+                        <div class="product-item">
+                            <img src="images/Triphala-300x300.png" alt="Butterfly Pea"
+                                class="img-fluid product-img mb-2">
+                            <div class="text-muted small">Tea & Coffee</div>
+                            <div class="fw-bold fs-6">Triphala Tea</div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- product 10  -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2 col-5ths">
+                    <a href="#" class="text-decoration-none text-dark d-block h-100">
+
+                        <div class="product-item">
+                            <img src="images/Tulsi-tea-300x300.png" alt="Butterfly Pea"
+                                class="img-fluid product-img mb-2">
+                            <div class="text-muted small">Tea & Coffee</div>
+                            <div class="fw-bold fs-6">Tulsi Tea</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Video Section -->
+    <section class="video-section py-5 bg-light ">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10">
+                    <div class="ratio ratio-16x9 rounded shadow overflow-hidden">
+                        <video class="w-100 h-100 object-fit-cover" autoplay muted loop playsinline>
+                            <source src="video/WhatsApp-Video-2025-02-09-at-16.20.06.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- basil leaf section -->
+    <div class="basil-leaf-sectionrow d-flex text-center border py-5 mb-4 mt-0 justify-content-center ">
+        <img src="images/basil-leaf.png" alt="" class="basil-leaf">
+    </div>
+
+    <!-- View Now Section -->
+    <section class="view-now-section py-5 bg-light-cream">
+      
+        <div class="container">
+          
+
+            <div class="row g-4">
+                <!-- Card 1 -->
+                <div class="col-12 col-md-6 col-lg-4  ">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold">Nature's Energy Elexier</h5>
+                            <a href="#" class="btn bg-primary-green d-inline-flex align-items-center gap-2 mb-3">
+                                <span class="text-white card-button-text">VIEW NOW</span>
+                                <i class="fas fa-arrow-right text-white"></i>
+                            </a>
+                            <img src="images/view-img-4.png" alt="Pure Power Portion" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Card 2 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold">Pure Power Portion</h5>
+                            <a href="#" class="btn bg-primary-green d-inline-flex align-items-center gap-2 mb-3">
+                                <span class="text-white">VIEW NOW</span>
+                                <i class="fas fa-arrow-right text-white"></i>
+                            </a>
+                            <img src="images/view-img-5.png" alt="Pure Power Portion" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold">Pure Medicinal Gold</h5>
+                            <a href="#" class="btn bg-primary-green  d-inline-flex align-items-center gap-2 mb-3">
+                                <span class=" text-white ">VIEW NOW</span>
+                                <i class="fas fa-arrow-right text-white"></i>
+                            </a>
+                            <img src="images/view-img-3.png" alt="Pure Medicinal Gold" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Customer Reviews Section -->
+    <section class="customer-reviews py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Customers Reviews</h2>
+            </div>
+
+            <!-- ROW with cards aligned properly -->
+            <div class="row g-4 d-flex align-items-end">
+
+                <!-- Card 1: Review -->
+                <div class="col-12 col-md-6 col-lg-4 d-flex">
+                    <div class="card border-0 shadow p-4 w-100 align-self-end ">
+                        <div class="text-warning fs-4 mb-4 mt-5">★★★★★</div>
+                        <p class="mb-4">
+                            Nature Product has brought the essence of Nepal's high-altitude treasures right to my
+                            doorstep. The authenticity of their herbs and medicinal plants is unmatched, and their
+                            commitment to quality is evident in every product I've tried.
+                        </p>
+                        <h6 class="fw-bold mb-4">Love Roy</h6>
+                    </div>
+                </div>
+
+                <!-- Card 2: Deal of the Day -->
+                <div class="col-12 col-md-6 col-lg-4 d-flex">
+                    <div class="card-background card border-0 shadow text-white text-center d-flex flex-column justify-content-center align-items-center p-4 w-100 position-relative"
+                        style="min-height: 450px;">
+
+
+                        <div class="position-relative z-2  ">
+                            <h5 class="card-heading mb-5 p-1  ">Deal Of The Day 15% Off On All Products!</h5>
+
+                            <button
+                                class="review-section-button  bg-primary-green text-white rounded-1  mt-5 mb-4">
+                                VIEW PRODUCT <i class="fas fa-arrow-right mx-2"></i>
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!-- Card 3: Review -->
+                <div class="col-12 col-md-6 col-lg-4 d-flex">
+                    <div class="card border-0 shadow p-4 w-100 align-self-end">
+                        <div class="text-warning fs-4  mb-4 mt-3 ">★★★★★</div>
+                        <p class="mb-3 tetx-center mb-4">
+                            Nature Product isn't just a brand; it's a bridge between Nepali farmers, manufacturers, and
+                            global consumers. Their dedication to showcasing the best of Nepal's natural bounty is
+                            commendable, making them a go-to choice for anyone seeking top-notch products.
+                        </p>
+                        <h6 class="fw-bold mb-4">Sohaib Ahmad</h6>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Our Businesses Section -->
+    <section class="our-businesses py-5 bg-light-beige">
+        <div class="container text-center mt-5 mb-3 ">
+
+            <!-- Heading -->
+            <h2 class="fw-bold mb-3 fs-2">Our Businesses</h2>
+
+            <!-- Leaf Logo -->
+            <div class="mb-5">
+                <img src="images/logo-leaf-new.png" alt="Leaf Logo" class="leaf-sticker-img" style="width: 60px;">
+            </div>
+
+            <!-- 5 Column Row with Images -->
+            <div class="row g-4 justify-content-between">
+
+                <!-- Business 1 -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <img src="images/business-img-1.png" alt="Business 1" class="img-fluid business-image ">
+                </div>
+
+                <!-- Business 2 -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <img src="images/business-img-2.png" alt="Business 2" class="img-fluid business-image ">
+                </div>
+
+                <!-- Business 3 -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <img src="images/business-img-3.png" alt="Business 3" class="img-fluid business-image">
+                </div>
+
+                <!-- Business 4 -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <img src="images/business-img-4.png" alt="Business 4" class="img-fluid business-image">
+                </div>
+
+                <!-- Business 5 -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <img src="images/business-img-5.png" alt="Business 5" class="img-fluid business-image ">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Footer Section -->
+    <footer class="bg-deep-forest text-white pt-5 pb-3">
+        <div class="container">
+            <div class="row gy-4">
+
+                <!-- Company Description -->
+                <div class="col-md-4 col-lg-3">
+                    <img src="images/navbar-logo.png" alt="" class="w-75 mt-4">
+                    <p>
+                        Sashi Incorporation and Investment Pvt.Ltd. is the registered company to sub section (1) of
+                        section (5) the company act according to the law of Nepal from 2013/9/16. It was established
+                        with the main motivate of import and export from different countries & aspires to be the biggest
+                        retail company in Nepal.
+                    </p>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-md-2 col-lg-3">
+                    <h6 class="fw-bold text-white fs-3 mb-5">Quick Links</h6>
+                    <ul class="list-unstyled ">
+                        <li class="mb-4"><a href="#" class="text-decoration-none text-white  ">Home</a></li>
+                        <li class="mb-4"><a href="#" class="text-decoration-none text-white ">Product Catalogues</a>
+                        </li>
+                        <li class="mb-4"><a href="#" class="text-decoration-none text-white ">Contact us</a></li>
+                        <li class="mb-4"><a href="#" class="text-decoration-none text-white ">About us</a></li>
+                        <li class="mb-4"><a href="#" class="text-decoration-none text-white ">News / Articles</a></li>
+                    </ul>
+                </div>
+
+                <!-- Categories -->
+                <div class="col-md-3 col-lg-3">
+                    <h6 class="fw-bold fs-3 mb-5 ">Categories</h6>
+                    <ul class="list-unstyled text-white ">
+                        <li class="mb-4"><a href="#" class="text-decoration-none text-white ">Beans</a></li>
+                        <li class="mb-4"><a href="#" class="text-decoration-none text-white ">Supplements</a></li>
+                        <li class="mb-4"><a href="#" class="text-decoration-none text-white ">Lentils</a></li>
+                        <li class="mb-4"><a href="#" class="text-decoration-none text-white ">Herbs & Spices</a></li>
+                        <li class="mb-4"><a href="#" class="text-decoration-none text-white ">Honey</a></li>
+                        <li class="mb-4"><a href="#" class="text-decoration-none text-white ">Tea & Coffee</a></li>
+                    </ul>
+                </div>
+
+                <!-- Know More -->
+                <div class="col-md-3 col-lg-3">
+                    <h6 class="fw-bold fs-3 mb-5">Know More</h6>
+                    <ul class="list-unstyled ">
+                        <li class="mb-4"><a href="#" class="text-decoration-none text-white ">Our Teams</a></li>
+                        <li class="mb-4"><a href="#" class="text-decoration-none text-white ">Vision & Mission</a></li>
+                        <li class="mb-4"><a href="#" class="text-decoration-none text-white ">Why Choose us</a></li>
+                        <li class="mb-4"><a href="#" class="text-decoration-none text-white ">Sources</a></li>
+                        <li class="mb-4"><a href="#" class="text-decoration-none text-white ">FAQ’s</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Copyright -->
+            <div class="text-center pt-4 mt-4 border-top text-white mt-5 mb-4">
+                <small>2024 © NatureProducts. All Right Reserved. Designed & Developed by
+                    <span style="color: green; font-weight: bold;">Matinsoftech</span></small>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"
+        integrity="sha512-7Pi/otdlbbCR+LnW+F7PwFcSDJOuUJB3OxtEHbg4vSMvzvJjde4Po1v4BR9Gdc9aXNUNFVUY+SK51wWT8WF0Gg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
